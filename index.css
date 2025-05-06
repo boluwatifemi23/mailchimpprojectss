@@ -1,0 +1,1756 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstmailchimpheader1{
+    height: 4rem;
+    background-color: rgb(36,28,21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 19px;
+}
+
+.save50{
+    width: 15rem;
+    color: rgb(255,255,255);
+    text-align: center;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.save50>a{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 5px;
+    color: rgb(255,255,255);
+    text-decoration-thickness: -2px;
+}
+
+.save50>a:hover{
+    text-decoration: none;
+}
+
+.signupbtn{
+    padding: 9px 25px;
+    border-radius: 30px;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(36, 28, 21);
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: linear(0, 0.02 2.27%, 0.04 6.6%, 0.06 9.07%, 0.1 11.33%, 0.14 13.6%, 0.18 15.9%, 0.39 22.7%, 0.56 27.25%, 0.77 31.6%, 1 36.35%, 0.89 40%, 0.85 43.16%, 0.81 45.45%, 0.79 47.72%);
+    border: 1px solid;
+    background-color: rgb(255,224,27);
+}
+.signupbtn:hover{
+   transform: scale(1);
+   box-shadow: 0px 5px;
+   animation: bounce 0.5s ease;
+}
+
+@keyframes bounce{
+    0%, 100%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+}
+
+.loginbtn{
+    background-color: transparent;
+}
+
+.sales{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    color: rgb(36, 28, 21);
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.sales:hover{
+    background-color: whitesmoke;
+}
+
+.harmburgers{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.harmburgers:hover{
+    background-color: whitesmoke !important;
+}
+
+.harmburgersbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.solutions{
+    display: flex !important;
+    justify-content: space-between !important;
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif !important;
+    font-size: 23px !important;
+    align-items: center !important;
+}
+
+.solutions:hover{
+    background-color: whitesmoke !important;
+}
+
+.english1{
+    display: flex !important;
+    gap: 10px !important;
+    align-items: center !important;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+.english1:hover{
+    background-color: whitesmoke !important;
+}
+
+.bootstrapimages{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    padding: 30px;
+}
+
+.emails{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.emails>h3{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(36, 28, 21);
+}
+
+.emails>p{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 24px;
+    color: rgb(36, 28, 21);
+    width: 49rem;
+}
+
+.backgroundimage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.backgroundimage1{
+    background-image: url(https://eep.io/images/yzco4xsimv0y/5EODYdgDf1houB82RfR8e0/d3a56636ba2d48943ab54513277458bc/Homepage-Feature-Card-Automations-Desktop-INT__1_.png?w=630&fm=avif&q=60);
+    flex: 1;
+    height: 29rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundimage2{
+    background-image: url(https://eep.io/images/yzco4xsimv0y/3JSoRinRB2VTmBiD7NyEUg/f48b012abacf15bc323135c3d9e3cbe2/Homepage-Feature-Card-AI-Desktop.png?w=630&fm=avif&q=60);
+    flex: 1;
+    height: 29rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundimage3{
+    background-image: url(https://eep.io/images/yzco4xsimv0y/6QVNtP8As7OHsx5mivPn8f/c802814a27e36ee4a016556501e6ec85/Homepage-Feature-Card-Segmentation-Desktop.png?w=630&fm=avif&q=60);
+    flex: 1;
+    height: 29rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundimage4{
+    background-image: url(https://eep.io/images/yzco4xsimv0y/6JxWAec8e3X3OMFmX9dVvd/9f34fab9dcbe5d69c4faf2c0d1b9b5ae/Homepage-Feature-Card-Analytics-Reporting-Desktop.png?w=630&fm=avif&q=60);
+    flex: 1;
+    height: 29rem;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.pb{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(36, 28, 21);
+    padding: 30px;
+}
+
+.pb>a{
+    text-decoration: none;
+    color: rgb(36, 28, 21);
+}
+
+.pb>a:hover{
+    text-decoration: underline;
+}
+.signupbtn1{
+    background-color: transparent;
+}
+
+.divdiv2{
+    height: 15rem;
+    background-color: rgb(215,150,55);
+    padding: 2.8rem;
+}
+
+.divtext2{
+    background-color: rgb(235,225,205);
+}
+
+.pn{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.pbtn{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.divtext3{
+    background-color: rgb(230,185,95);
+}
+
+.divtext4{
+    background-color: rgb(245,245,245);}
+
+.div2{
+        background-color: rgb(35, 30, 21);
+        display: flex;
+        gap: 80px;
+        padding: 90px 150px;
+}
+
+.div2a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div2b {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.div2ba {
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+}
+
+.div2a>h4 {
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 38px;
+    width: 23rem;
+}
+
+.div2a>p {
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    width: 23rem;
+}
+
+.hs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hs>h4{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 38px;
+    width: 23rem;
+}
+
+.hs>p{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    width: 23rem;
+}
+
+.dist{
+    display: flex;
+    gap: 5rem;
+}
+
+.div3 {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.learno{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: fit-content;
+}
+
+.learno:hover{
+    background-color: gold;
+    border-radius: 20px;
+}
+
+.hei{
+   background-color: gold;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+.learnsee{
+    width: fit-content;
+}
+
+.div3a {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.div3header {
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.div3p {
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(36, 28, 21);
+}
+
+.div4 {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+   gap: 10rem;
+   padding: 50px;
+}
+
+.class2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.spend{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(36, 28, 21);
+    width: 40rem;
+}
+
+.spend>a{
+    color: rgb(36, 28, 21);
+}
+
+.spend>a:hover{
+    background-color: gold;
+}
+
+.standard{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 45px;
+    color: rgb(36, 28, 21);
+    font-weight: 500;
+}
+
+.off{
+    text-decoration: 9px underline gold;
+}
+
+.listflex{
+    display: flex;
+    gap: 90px;
+}
+
+.listflexdiv{
+    display: flex;
+    gap: 20px;
+}
+
+.listflexdiv>ul>li{
+list-style-type: none;
+}
+
+.flexit{
+    display: flex;
+    justify-content: end;
+}
+
+.no-bg{
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 13px !important;
+    color: black !important;
+    font-weight: 500 !important;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+}
+
+.no-bg1{
+    background-color: transparent !important;
+    border: none !important;
+    color: black !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif !important;
+}
+
+.divstandardp1{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.divstandardp2{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.divstandard {
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.divcontacts {
+    height: 20px;
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.dropdown-menu{
+    height: 350px;
+    overflow: auto;
+}
+
+.dropdown-english{
+    height: 170px;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+.mostarts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.hellloo{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.mostarts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.then{
+    font-size: 13px;
+}
+
+.love{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrows2{
+    background-color: gold;
+    padding: 8px;
+    border-radius: 20px;
+}
+.seeallplan{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(36, 28, 21);
+    font-weight: 400;
+}
+
+.mo{
+    font-size: 13px;
+}
+
+.disabled{
+    opacity: 0.6;
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 27px;
+}
+
+.starts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fontsi{
+    font-size: 31px;
+    color: rgb(0, 0, 0);
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+}
+
+.checkagain{
+    color: gold;
+}
+
+.now{
+    background-color: gold;
+    width: 100%;
+}
+
+.divbg{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.terms{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-underline-offset: 3px;
+    color: rgb(64, 59, 59);
+}
+
+.terms:hover{
+    text-decoration-color: grey;
+}
+
+.overages{
+    color: rgb(64, 59, 59);
+}
+
+.seeoffer{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    color: rgb(64, 59, 59);
+    width: 20rem;
+}
+
+.divpp{
+    padding: 5rem 4rem 0rem;
+}
+
+.themoment{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 4rem ;
+}
+
+.imagesp{
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    padding: 20px;
+    gap: 10px;
+    text-decoration: none; 
+}
+
+.imagesp:hover{
+    background-color: whitesmoke;
+}
+
+.divpp>p{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: 540;
+    color: rgb(36, 28, 21);
+    width: 36rem;
+    line-height: 35px;
+}
+
+
+.spanout{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.span2{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(36, 28, 21);
+    font-weight: 600;
+}
+
+.span2:hover{
+    text-decoration: underline;
+}
+
+.span1{
+    font-size: 13px;
+    color: rgba(36, 28, 21, 0.65);
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    width: 16rem;
+}
+
+.divfinal1{
+    background-color: rgb(35,30,21);
+    height: 18rem;
+    align-content: center;
+    justify-items: center;
+    padding: 3rem;
+}
+.pclases{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    width: 55rem;
+    text-align: center;
+}
+
+.signupbtn2:hover{
+    box-shadow: 0px 5px white;
+    border: none;
+}
+
+.divfinal2{
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+.divfinal21{
+    color: black;
+    font-size: 11px;
+   padding: 2rem;
+}
+
+.divfinal22{
+    color: rgb(36, 28, 21);
+    font-size: 11px;
+}
+
+.here{
+    color: rgb(36, 28, 21);
+}
+
+.here:hover{
+    background-color: gold;
+
+}
+
+.divfinal3{
+    background-color: rgb(231,183,95);
+}
+
+.divfinalf{
+    display: flex;
+    align-content: center;
+    gap: 30px;
+    padding: 4rem 8rem 2rem;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.related{
+    font-size: 16px;
+}
+
+.what{
+    color: rgb(36, 28, 21);
+    height: 1.4rem;
+}
+
+.what:hover{
+    background-color: rgb(255,224,27);
+}
+
+.divfinal5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divfinal5>a{
+   color: rgb(36, 28, 21);
+   font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+   font-size: 14px;
+}
+
+.divfinal4{
+    display: flex;
+    gap: 4rem;
+    padding: 3rem 5rem;
+}
+
+.imagesss{
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.google>div>a{
+    text-decoration: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.dropp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.end{
+    width: 41rem;
+    font-size: 12px;
+}
+
+.films{
+    width: 17rem;
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 13px;
+    font-weight: 300;
+    color:
+rgb(36, 28, 21);
+}
+
+
+.presents{
+    text-decoration: none;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(0, 32, 35);
+}
+
+.hellloo{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.end>strong>a{
+    color: black;
+}
+
+.padding{
+    padding: 30px;
+}
+
+.hy{
+    border: 1px solid black !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 5rem !important;
+    font-size: 14px !important;
+    color: rgb(36, 28, 21) !important;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif !important;
+}
+
+
+@media screen and (width:320px) {
+    .emails>p{
+        width: 19rem;
+        text-align: center;
+        font-size: 18px;
+      }
+  
+      .emails>h3{
+          width: 18rem;
+          text-align: center;
+      }
+
+      .backgroundimage{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .div2{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 30px 50px;  
+}
+    .dist{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .div2a>p {
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 15px;
+        width: 10rem;
+    }
+    
+    .div2a>h4{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 22px;
+        width: 10rem;
+    }
+
+    .div3{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        background-color: whitesmoke;
+    }
+
+    .div3header {
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .hs>h4{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 28px;
+        width: 16rem;
+    }
+
+    .hs>p{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 21px;
+        width: 16rem;
+    }
+
+    .div4 {
+        background-color: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+       gap: 4rem;
+       padding: 30px;
+    }
+
+    .class2{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 6rem;
+    }
+
+    .spend{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 16px;
+        color: rgb(36, 28, 21);
+        width: 14rem;
+        text-align: center;
+    }
+
+    .divstandard {
+        height: 30%;
+        width: 110%;
+        background-color: white;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .listflex{
+        display: none !important;
+    }
+
+    .standard{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 30px;
+        color: rgb(36, 28, 21);
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .seeoffer{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 13px;
+        color: rgb(64, 59, 59);
+        width: 13rem;
+    }
+
+    .themoment{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0rem;
+    }
+
+    .divpp>p{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 29px;
+        font-weight: 400;
+        color: rgb(36, 28, 21);
+        width: 16rem;
+    }
+
+    .imagesp{
+    display: flex;
+    flex-direction: column;
+}
+
+.divfinal1{
+    align-content: center;
+    justify-items: center;
+    padding: 3rem;
+}
+
+
+.pclases{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    width: 12rem;
+    text-align: center;
+}
+.divfinalf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 4rem 2rem;
+    font-size: 13px;
+    gap: 30px;
+}
+
+.divfinal4{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 2rem;
+}
+
+.dropp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.padding{
+    display: flex;
+    gap: 1rem;
+}
+
+.ruth{
+    display: none !important;
+}
+
+.learno{
+    display: none !important;
+}
+
+.learnsee{
+    display: none !important;
+}
+
+.hei{
+    display: none !important;
+}
+
+.imagesss{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.end{
+    width: 13rem;
+   }
+
+.span1{
+    display: none !important;
+}
+
+.span2{
+    width: 5rem;
+    font-size: 12px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+}
+
+@media screen and (width:375px){
+    .emails>p{
+      width: 20rem;
+      text-align: center;
+      font-size: 18px;
+    }
+    .span1{
+        display: none !important;
+    }
+
+    .imagesp{
+        display: flex;
+        flex-direction: column;
+    }
+    .emails>h3{
+        width: 23rem;
+        text-align: center;
+    }
+
+    .backgroundimage{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .div2{
+        background-color: rgb(35, 30, 21);
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        padding: 30px 50px;  
+}
+    .dist{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .div2a>p{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 15px;
+        width: 9rem;
+    }
+    
+    .div2a>h4{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 22px;
+        width: 12rem;
+    }
+
+    .hs>h4{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 28px;
+        width: 19rem;
+    }
+
+    .hs>p{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 21px;
+        width: 18rem;
+    }
+
+    .div3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 2rem;
+        background-color: whitesmoke;
+    }
+
+    .div3header {
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+
+    }
+
+    .div3p {
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 19px;
+        color: rgb(36, 28, 21);
+    }
+
+    .div4 {
+        background-color: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+       gap: 4rem;
+    }
+
+    .class2{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .spend{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 16px;
+        color: rgb(36, 28, 21);
+        width: 19rem;
+        text-align: center;
+    }
+
+    .divstandard {
+        height: 30%;
+        width: 110%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .listflex{
+        display: none !important;
+    }
+
+    .standard{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 40px;
+        color: rgb(36, 28, 21);
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .seeoffer{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 13px;
+        color: rgb(64, 59, 59);
+        width: 16rem;
+    }
+
+    .themoment{
+        display: grid;
+        grid-template-columns: 1fr 1fr!important;
+        padding: 0rem;
+    }
+
+    .divpp>p{
+        font-size: 38px;
+        font-weight: 540;
+        color: rgb(36, 28, 21);
+        width: 19rem;
+    }
+
+    .imagesp{
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    padding: 4px;
+    gap: 10px;
+    text-decoration: none; 
+}
+
+.divfinal1{
+    align-content: center;
+    justify-items: center;
+    padding: 3rem;
+}
+
+.pclases{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    width: 12rem;
+    text-align: center;
+}
+
+.divfinalf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.divfinal4{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 2rem;
+}
+
+.dropp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.padding{
+    display: flex;
+    gap: 1rem;
+    padding: 15px;
+}
+
+.learno{
+    display: none !important;
+}
+
+.learnsee{
+    display: none !important;
+}
+
+.hei{
+    display: none !important;
+}
+
+.imagesss{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.end{
+    width: 13rem;
+   }
+
+   .divfinalf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 4rem 2rem;
+    font-size: 13px;
+    gap: 30px;
+}
+
+.span2{
+    width: 5rem;
+    font-size: 12px;
+}
+}
+
+@media screen and (width:425px){
+    .emails{
+        margin-top: 3rem;
+    }
+    .emails>h3{
+        width: 23rem;
+        text-align: center;
+    }
+
+    .emails>p{
+        width: 25rem;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .backgroundimage{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .div2{
+        background-color: rgb(35, 30, 21);
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        padding: 30px 50px;  
+}
+    .dist{
+        display: flex;
+        gap: 5rem;
+    }
+
+    .div2a>p {
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 15px;
+        width: 8rem;
+    }
+    
+    .div2a>h4{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 22px;
+        width: 8rem;
+    }
+
+    .div3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 2rem;
+        background-color: whitesmoke;
+    }
+
+    .div3header {
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        width: 10rem;
+
+    }
+
+    .div3p {
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 19px;
+        color: rgb(36, 28, 21);
+    }
+
+    .div4 {
+        background-color: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+       gap: 4rem;
+       padding: 50px;
+    }
+
+    .class2{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .spend{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 16px;
+        color: rgb(36, 28, 21);
+        width: 19rem;
+        text-align: center;
+    }
+
+    .divstandard {
+        height: 30%;
+        width: 110%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .listflex{
+        display: none !important;
+    }
+
+    .standard{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 40px;
+        color: rgb(36, 28, 21);
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .themoment{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        padding: 0rem;
+    }
+
+    .divpp{
+        padding: 0rem 0rem;
+    }
+
+    .divpp>p{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 38px;
+        font-weight: 540;
+        color: rgb(36, 28, 21);
+        width: 20rem;
+        line-height: 35px;
+    }
+
+    .divfinal1{
+        background-color: rgb(35,30,21);
+        align-content: center;
+        justify-items: center;
+        padding: 3rem;
+    }
+
+    .pclases{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 21px;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        width: 12rem;
+        text-align: center;
+    }
+
+    .divfinalf{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        padding: 2rem;
+    }
+    
+    .divfinal4{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        padding: 2rem;
+    }
+    
+    .dropp{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    
+    .padding{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .imagesss{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .google{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .span2{
+        width: 5rem;
+        font-size: 12px;
+    }
+    
+
+    .learno{
+        display: none !important;
+    }
+    
+    .learnsee{
+        display: none !important;
+    }
+    
+    .hei{
+        display: none !important;
+    }
+   .end{
+    width: 13rem;
+   }
+
+   .span1{
+    display: none !important;
+}
+
+.imagesp{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 6px;
+}
+}
+
+
+@media screen and (width:768px){
+    .emails>p{
+        width: 35rem;
+        text-align: center;
+    }
+
+    .backgroundimage{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .div2{
+        background-color: rgb(35, 30, 21);
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        padding: 70px 110px;  
+}
+    .dist{
+        display: flex;
+        gap: 5rem;
+    }
+
+    .div2a>p {
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 17px;
+        width: 15rem;
+    }
+    
+    .div2a>h4{
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 30px;
+        width: 15rem;
+    }
+
+    .div3{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 5rem;
+        background-color: whitesmoke;
+    }
+
+    .div3header {
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 37px;
+        font-weight: 600;
+        line-height: 50px;
+        width: 34rem;
+
+    }
+
+    .div3p {
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 19px;
+        color: rgb(36, 28, 21);
+    }
+
+    .div4 {
+        background-color: rgb(245, 245, 245);
+        display: flex;
+        flex-direction: column;
+       gap: 10rem;
+       padding: 50px;
+    }
+
+    .class2{
+    display: flex;
+    flex-direction: column;
+    gap: -1rem;
+}
+
+.themoment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem;
+}
+
+.imagesp{
+    display: flex;
+    align-items: center;
+    height: 9rem;
+    padding: 9px;
+    gap: 10px;
+    text-decoration: none; 
+}
+
+.divfinal1{
+    /* display: flex; */
+    align-content: center;
+    justify-items: center;
+    padding: 3rem;
+}
+
+.divfinalf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.divfinal4{
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-items: center;
+    gap: 6rem;
+}
+
+.dropp{
+    display: flex;
+    gap: 10rem;
+
+}
+
+.padding{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.hellloo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.google{
+    display: flex;
+    gap: 8px;
+}
+
+.end{
+    width: 20rem;
+}
+
+.span1{
+    width: 11rem;
+}
+
+.learno{
+    display: none !important;
+}
+
+.learnsee{
+    display: none !important;
+}
+
+.hei{
+    display: none !important;
+}
+
+
+
+}
+@media screen and (width:1024px){
+    .pbtn{
+        padding: 3px 10px;
+        font-size: 13px;
+        height: 2.5rem;
+    }
+
+    .pn{
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+
+    .div2{
+       gap: 60px;
+    }
+
+    .div2a>p {
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+        font-size: 17px;
+        /* line-height: 32px; */
+        width: 15rem;
+    }
+    
+    .div2a>h4 {
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 27px;
+        /* line-height: 38px; */
+        width: 15rem;
+    }
+
+    .div3{
+        display: flex;
+        gap: 10px;
+        padding: 0rem 2rem;
+        background-color: whitesmoke;
+    }
+
+    .div3header {
+        font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+        font-size: 37px;
+        font-weight: 600;
+        line-height: 50px;
+        width: 34rem;
+
+}
+
+.div4 {
+    /* height: 100vh; */
+    background-color: rgb(245, 245, 245);
+    display: flex;
+   gap: 5rem;
+   padding: 20px;
+}
+
+.class2{
+    padding-top: 10%;
+}
+
+.themoment{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 4rem;
+}
+
+.divstandard {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    /* border: 2px solid black */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.spend{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(36, 28, 21);
+    width: 19rem;
+    text-align: center;
+}
+
+.divfinalf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.divfinal4{
+    display: flex;
+    gap: 3rem;
+}
+
+.learno{
+    display: none !important;
+}
+
+.learnsee{
+    display: none !important;
+}
+
+.hei{
+    display: none !important;
+}
+}
+
+@media screen and (width:1440px) {
+    .divfinalf{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
