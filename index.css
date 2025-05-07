@@ -797,16 +797,17 @@ rgb(36, 28, 21);
 }
 
 
-@media screen and (width:320px) {
+@media screen and (max-width:320px) {
     .emails>p{
-        width: 19rem;
+        width: 16rem !important;
         text-align: center;
-        font-size: 18px;
+        font-size: 14px !important;
       }
   
       .emails>h3{
-          width: 18rem;
+          width: 18rem !important;
           text-align: center;
+          font-size: 25px;
       }
 
       .backgroundimage{
@@ -817,8 +818,8 @@ rgb(36, 28, 21);
     .div2{
         display: flex;
         flex-direction: column;
-        gap: 15px;
-        padding: 30px 50px;  
+        gap: 15px !important;
+        padding: 10px !important;  
 }
     .dist{
         display: flex;
@@ -828,39 +829,39 @@ rgb(36, 28, 21);
 
     .div2a>p {
         font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-        font-size: 15px;
-        width: 10rem;
+        font-size: 15px !important;
+        width: 10rem !important;
     }
     
     .div2a>h4{
         font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
-        font-size: 22px;
-        width: 10rem;
+        font-size: 22px !important;
+        width: 3rem !important;
     }
 
     .div3{
         display: flex;
         flex-direction: column;
-        padding: 1rem;
+        padding: 1rem !important;
         background-color: whitesmoke;
     }
 
     .div3header {
         font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 20px !important;
+        font-weight: 600 !important;
     }
 
     .hs>h4{
         font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
-        font-size: 28px;
-        width: 16rem;
+        font-size: 17px !important;
+        width: 5rem !important;
     }
 
     .hs>p{
         font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-        font-size: 21px;
-        width: 16rem;
+        font-size: 21px !important;
+        width: 16rem !important;
     }
 
     .div4 {
@@ -926,7 +927,7 @@ rgb(36, 28, 21);
         font-size: 29px;
         font-weight: 400;
         color: rgb(36, 28, 21);
-        width: 16rem;
+        width: 16rem !important;
     }
 
     .imagesp{
@@ -937,7 +938,11 @@ rgb(36, 28, 21);
 .divfinal1{
     align-content: center;
     justify-items: center;
-    padding: 3rem;
+    padding: 3rem !important;
+}
+
+.divfinal2{
+    padding: 1rem !important;
 }
 
 
@@ -946,35 +951,35 @@ rgb(36, 28, 21);
     font-size: 17px;
     font-weight: 500;
     color: rgb(255, 255, 255);
-    width: 12rem;
+    width: 12rem !important;
     text-align: center;
 }
 .divfinalf{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4rem 4rem 2rem;
-    font-size: 13px;
+    padding: 4rem 4rem 2rem !important;
+    font-size: 13px !important;
     gap: 30px;
 }
 
 .divfinal4{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
-    padding: 3rem 2rem;
+    gap: 3rem !important;
+    padding: 3rem 2rem !important;
 }
 
 .dropp{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px !important;
 
 }
 
 .padding{
     display: flex;
-    gap: 1rem;
+    gap: 1rem !important;
 }
 
 .ruth{
@@ -994,19 +999,19 @@ rgb(36, 28, 21);
 }
 
 .imagesss{
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-content: center;
 }
 
 .google{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem !important;
 }
 
 .end{
-    width: 13rem;
+    width: 13rem !important;
    }
 
 .span1{
@@ -1014,17 +1019,17 @@ rgb(36, 28, 21);
 }
 
 .span2{
-    width: 5rem;
-    font-size: 12px;
+    width: 5rem !important;
+    font-size: 12px !important;
 }
 
 .padding{
-    padding: 10px;
+    padding: 10px !important;
 }
 
 }
 
-@media screen and (width:375px){
+@media screen and (max-width:375px){
     .emails>p{
       width: 20rem;
       text-align: center;
@@ -1039,8 +1044,12 @@ rgb(36, 28, 21);
         flex-direction: column;
     }
     .emails>h3{
-        width: 23rem;
+        width: 23rem !important;
         text-align: center;
+    }
+
+    .emails>p{
+        width: 20rem !important;
     }
 
     .backgroundimage{
@@ -1050,10 +1059,10 @@ rgb(36, 28, 21);
 
     .div2{
         background-color: rgb(35, 30, 21);
-        display: flex;
-        flex-direction: column;
-        gap: 17px;
-        padding: 30px 50px;  
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 17px !important;
+        padding: 30px 50px !important;  
 }
     .dist{
         display: flex;
@@ -1063,48 +1072,50 @@ rgb(36, 28, 21);
 
     .div2a>p{
         font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-        font-size: 15px;
-        width: 9rem;
+        font-size: 15px !important;
+        width: 9rem !important;
     }
     
     .div2a>h4{
         font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
-        font-size: 22px;
-        width: 12rem;
+        font-size: 22px !important;
+        width: 12rem !important;
     }
 
     .hs>h4{
         font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
         font-size: 28px;
-        width: 19rem;
+        width: 19rem !important;
     }
 
     .hs>p{
         font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-        font-size: 21px;
-        width: 18rem;
+        font-size: 21px !important;
+        width: 18rem !important;
     }
 
     .div3{
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        padding: 2rem;
+        gap: 10px !important;
+        padding: 2rem !important;
         background-color: whitesmoke;
     }
 
     .div3header {
         font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
-        font-size: 24px;
+        font-size: 24px !important;
         font-weight: 600;
-        line-height: 30px;
+        /* line-height: 30px; */
+        width: 10rem !important;
 
     }
 
     .div3p {
         font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
-        font-size: 19px;
+        font-size: 19px !important;
         color: rgb(36, 28, 21);
+        width: 20rem;
     }
 
     .div4 {
@@ -1264,7 +1275,7 @@ rgb(36, 28, 21);
 }
 }
 
-@media screen and (width:425px){
+@media screen and (max-width:425px){
     .emails{
         margin-top: 3rem;
     }
@@ -1274,7 +1285,7 @@ rgb(36, 28, 21);
     }
 
     .emails>p{
-        width: 25rem;
+        width: 21rem !important;
         font-size: 18px;
         text-align: center;
     }
@@ -1286,10 +1297,10 @@ rgb(36, 28, 21);
 
     .div2{
         background-color: rgb(35, 30, 21);
-        display: flex;
-        flex-direction: column;
-        gap: 17px;
-        padding: 30px 50px;  
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 17px !important;
+        padding: 30px 50px !important;  
 }
     .dist{
         display: flex;
@@ -1321,7 +1332,7 @@ rgb(36, 28, 21);
         font-size: 24px;
         font-weight: 600;
         line-height: 30px;
-        width: 10rem;
+        width: 10rem !important;
 
     }
 
@@ -1479,10 +1490,33 @@ rgb(36, 28, 21);
     padding: 10px;
     gap: 6px;
 }
+.div2a>p{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 15px !important;
+    width: 9rem !important;
+}
+
+.div2a>h4{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 22px !important;
+    width: 12rem !important;
+}
+
+.hs>h4{
+    font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
+    font-size: 28px !important;
+    width: 19rem !important;
+}
+
+.hs>p{
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 21px !important;
+    width: 18rem !important;
+}
 }
 
 
-@media screen and (width:768px){
+@media screen and (max-width:768px){
     .emails>p{
         width: 35rem;
         text-align: center;
@@ -1635,7 +1669,7 @@ rgb(36, 28, 21);
 
 
 }
-@media screen and (width:1024px){
+@media screen and (max-width:1024px){
     .pbtn{
         padding: 3px 10px;
         font-size: 13px;
@@ -1745,7 +1779,7 @@ rgb(36, 28, 21);
 }
 }
 
-@media screen and (width:1440px) {
+@media screen and (max-width:1440px) {
     .divfinalf{
         display: flex;
         flex-direction: column;
